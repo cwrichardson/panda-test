@@ -1,0 +1,38 @@
+{
+  "home": {
+    "aboveTheFold": [
+      {
+        "content": {
+          "blocks": [],
+          "links": [],
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 1,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "This\n"
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "emphasis"
+                      ],
+                      "value": "is a heading"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "id": "144130863"
+  }
+}
