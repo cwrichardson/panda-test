@@ -1,3 +1,4 @@
+import { Toaster } from '@/components/Toaster';
 import '@/global.css';
 import { FontMerriweather, FontRoboto } from '@/styles/font';
 
@@ -11,7 +12,9 @@ const App = ({ Component, pageProps }) => (
           }
         `}
       </style>
-      <Component {...pageProps} />
+      <Toaster>
+        <Component {...pageProps} />
+      </Toaster>
     </>
 )
 

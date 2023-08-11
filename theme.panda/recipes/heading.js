@@ -6,17 +6,17 @@ export const heading = cva({
     },
     variants: {
         type: {
-            // h1: { 
-            //     fontSize: '3xl',
-            //     sm: { fontSize: '5xl'},
-            //     lg: {
-            //         fontSize: '7xl',
-            //         lineHeight: 1
-            //     }
-            // },
-            h1: {
-                fontSize: '5xl',
+            h1: { 
+                fontSize: '3xl',
+                sm: { fontSize: '5xl'},
+                lg: {
+                    fontSize: '7xl',
+                    lineHeight: 1
+                }
             },
+            // h1: {
+            //     fontSize: '5xl',
+            // },
             h2: { 
                 fontSize: '3xl'
             },

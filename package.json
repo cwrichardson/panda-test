@@ -20,7 +20,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@pandacss/dev": "^0.9.0",
+    "@pandacss/dev": "^0.10.0",
     "pform-reset": "^0.0.2"
   }
 }

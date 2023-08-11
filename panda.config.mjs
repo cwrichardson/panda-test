@@ -1,12 +1,13 @@
 import { defineConfig } from '@pandacss/dev';
 import { recipes } from '@/theme.panda/recipes';
+import { conditions } from '@/theme.panda/conditions';
 
 export default defineConfig({
     // Whether to use css reset
     preflight: true,
     
     // Where to look for your css declarations
-    include: ["./components/**/*.{js,jsx,ts,tsx}", "./pages/**/*.{js,jsx,ts,tsx}", "./app/**/*.{js,jsx,ts,tsx}"],
+    include: ["./components/**/*.{js,jsx,ts,tsx}", "./pages/**/*.{js,jsx,ts,tsx}", "./app/**/*.{js,jsx,ts,tsx}", "./theme.panda/**/*.{js,jsx,ts,tsx}"],
 
     // Files to exclude
     exclude: ["./**/__tests__/**/*.{js,jsx,ts,tsx}"],
@@ -22,6 +23,8 @@ export default defineConfig({
 
     // JSX Factory
     jsxFactory: 'panda',
+
+    conditions,
 
     // Useful for theme customization
     theme: {
