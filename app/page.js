@@ -1,6 +1,11 @@
-import { MyForm } from "@/components/MyForm";
+import { CheckBoxForm } from '@/components/CheckBoxForm';
+import { Center } from '@/styled-system/jsx';
 
 export default async function Page() {
 
-    return <MyForm />;
+    return (
+        <Center>
+            <CheckBoxForm />
+        </Center>
+    )
 }

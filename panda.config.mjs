@@ -1,4 +1,8 @@
 import { defineConfig } from '@pandacss/dev';
+
+import { conditions } from '@/theme.panda/conditions';
+import { globalCss } from '@/theme.panda/global-css';
+import { keyframes } from '@/theme.panda/keyframes';
 import { recipes } from '@/theme.panda/recipes';
 import { semanticTokens } from '@/theme.panda/semantic-tokens';
 import { tokens } from '@/theme.panda/tokens';
@@ -28,11 +32,14 @@ export default defineConfig({
     // Useful for theme customization
     theme: {
       extend: {
+        keyframes,
         recipes,
         semanticTokens,
         tokens
       }
     },
+    conditions,
+    globalCss,
 
     // The output directory for your css system
     outdir: "styled-system",

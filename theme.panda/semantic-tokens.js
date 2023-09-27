@@ -47,10 +47,10 @@ export const semanticTokens = defineSemanticTokens({
     },
     shadows: {
         accent: {
-            value: '0 0 0 1px {colors.border.accent}',
+            value: '0 0 0 1px {colors.idap.clickable}',
         },
         outline: {
-            value: '0 0 0 1px {colors.border.outline}',
+            value: '0 0 0 1px {colors.idap.accent2}',
         },
         xs: {
             value: {

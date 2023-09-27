@@ -1,7 +1,9 @@
-import { buttonRecipe } from "./button"
-import { selectRecipe } from "./select"
+import { buttonRecipe } from './button';
+import { checkboxRecipe } from './checkbox';
+import { iconRecipe } from './icon';
 
 export const recipes = {
     button: buttonRecipe,
-    select: selectRecipe
+    checkbox: checkboxRecipe,
+    icon: iconRecipe
 }

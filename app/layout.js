@@ -11,12 +11,9 @@ export default function RootLayout({ children }) {
             `${FontMerriweather.variable} ${FontRoboto.variable}`,
             css({ overflowX: 'hidden' })
           )}>
-            <body className={css({
-                background: 'idap.blue'
-            })}>
-                <Flex direction={'column'} color={'idap.lightText'}
-                  className='outer-wrapper'>
-                    <Flex bg={'url("/images/bg1.png")'}
+            <body>
+                <Flex direction={'column'}>
+                    <Flex
                       minH={'100vh'}
                       w={'100vw'}
                       direction={'column'}

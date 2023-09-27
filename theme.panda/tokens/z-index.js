@@ -34,6 +34,9 @@ export const zIndex = defineTokens.zIndex({
     skipLink: {
         value: 1600,
     },
+    nestedoverlay: {
+        value: 1600,
+    },
     toast: {
         value: 1700,
     },
