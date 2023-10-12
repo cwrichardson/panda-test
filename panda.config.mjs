@@ -6,6 +6,7 @@ import { keyframes } from '@/theme.panda/keyframes';
 import { recipes } from '@/theme.panda/recipes';
 import { semanticTokens } from '@/theme.panda/semantic-tokens';
 import { tokens } from '@/theme.panda/tokens';
+import { textStyles } from '@/theme.panda/text-styles';
 
 export default defineConfig({
     // Whether to use css reset
@@ -35,6 +36,7 @@ export default defineConfig({
         keyframes,
         recipes,
         semanticTokens,
+        textStyles,
         tokens
       }
     },
