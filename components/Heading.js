@@ -24,7 +24,7 @@ const heading = cva({
             },
             h1: { 
                 textStyle: '3xl',
-                sm: { textStyle: '5xl'},
+                sm: { textStyle: '5xl', py: '4' },
                 lg: {
                     textStyle: '7xl',
                     lineHeight: 1
